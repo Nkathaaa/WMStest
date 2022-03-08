@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="/Library/WebServer/www/wfp/admin/backend/tests" tests="6" assertions="6" errors="0" warnings="0" failures="0" skipped="0" time="0.460533">
+    <testsuite name="AdminTest" file="/Library/WebServer/www/wfp/admin/backend/tests/controllers/AdminTest.php" tests="3" assertions="3" errors="0" warnings="0" failures="0" skipped="0" time="0.446574">
+      <testcase name="testCanLoginFromValidCredentials" class="AdminTest" classname="AdminTest" file="/Library/WebServer/www/wfp/admin/backend/tests/controllers/AdminTest.php" line="28" assertions="1" time="0.233620"/>
+      <testcase name="testCannotLoginFromInValidCredentials" class="AdminTest" classname="AdminTest" file="/Library/WebServer/www/wfp/admin/backend/tests/controllers/AdminTest.php" line="35" assertions="1" time="0.085300"/>
+      <testcase name="testGetsKeyDashboardInfo" class="AdminTest" classname="AdminTest" file="/Library/WebServer/www/wfp/admin/backend/tests/controllers/AdminTest.php" line="47" assertions="1" time="0.127654"/>
+    </testsuite>
+    <testsuite name="ModelGeneralTest" file="/Library/WebServer/www/wfp/admin/backend/tests/models/ModelGeneralTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.003907">
+      <testcase name="test_get_countries" class="ModelGeneralTest" classname="ModelGeneralTest" file="/Library/WebServer/www/wfp/admin/backend/tests/models/ModelGeneralTest.php" line="19" assertions="1" time="0.003907"/>
+    </testsuite>
+    <testsuite name="ModelShoppingTest" file="/Library/WebServer/www/wfp/admin/backend/tests/models/ModelShoppingTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.006008">
+      <testcase name="test_get_countries" class="ModelShoppingTest" classname="ModelShoppingTest" file="/Library/WebServer/www/wfp/admin/backend/tests/models/ModelShoppingTest.php" line="18" assertions="1" time="0.006008"/>
+    </testsuite>
+    <testsuite name="ModelUsersTest" file="/Library/WebServer/www/wfp/admin/backend/tests/models/ModelUsersTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.004044">
+      <testcase name="test_get_countries" class="ModelUsersTest" classname="ModelUsersTest" file="/Library/WebServer/www/wfp/admin/backend/tests/models/ModelUsersTest.php" line="18" assertions="1" time="0.004044"/>
+    </testsuite>
+  </testsuite>
+</testsuites>
