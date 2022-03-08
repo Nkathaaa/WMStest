@@ -1,6 +1,7 @@
 <?php
 /** @noinspection PhpConstantNamingConventionInspection */
 declare(strict_types=0);
+####
 /**
  * CodeIgniter
  *
